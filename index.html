@@ -13,8 +13,10 @@
            function myFunction() {
 	      var canvas = document.getElementById('confetti');
               canvas.confetti = canvas.confetti || confetti.create(canvas, { resize: true });
-	      canvas.confetti({ spread: 70,
-		                origin: { y: 1.2 }
+	      canvas.confetti({ 
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 }
 			      });
 	   }
 	</script>
