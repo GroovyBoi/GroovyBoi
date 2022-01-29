@@ -9,5 +9,55 @@
   <body>
   <p>hello world<br />
   <button class="glow-on-hover" type="button">RAINBOW TIME</button></p>
+    <style> 
+    	.button2 { 
+    	background:rgb(80, 123, 191); 
+   	 	color: white; 
+    	font-size: 20px;
+    	transition: all 200ms ease-in-out; 
+    	border: none; 
+    	margin: 0 auto; 
+    	text-decoration: bold;
+    	border-radius: 8px;
+    	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    	display: block; 
+    	padding: 8px 20px	
+    	}
+
+    	.button2:hover { 
+    	opacity: 0.8; 
+    	cursor: pointer; 
+    	}
+
+    .button {
+    border: none;
+    color: orange; 
+    padding 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    .button1 {background-color: #4CAF50;}
+
+    </style>
+  </head>
+  <body>
+  <h1>hello world</h1>
+
+  <button class = "button button2"> 
+  		Click here! 
+  </button> 
+
+  <button class = "button button1">Blue</button>
+  <button onclick="doStuff()">cool button</button>
+  <p id="demo"></p>
+  <script>
+      function doStuff() {
+        document.getElementById("demo").innerHTML = "you're doing great sweetie:)";
+      }
+    </script>
   </body>
 </html>
