@@ -1,4 +1,5 @@
 # GroovyBoi
+hi :)
 seeing what we can do with the spotify app
 #next steps
 -login
@@ -6,3 +7,4 @@ seeing what we can do with the spotify app
 -process the data
 -output data(make playlist)
 -generate image for playlist
+-general design
