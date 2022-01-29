@@ -4,21 +4,10 @@
     <meta charset="UTF-8">
     <title>Groovy Boi</title>
     <link rel="shortcut icon" href="cowboyFavi/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="sampleButton.css">
   </head>
   <body>
-  <h1>hello world</h1>
-  <button onclick="myFunction()">Click for a surprise!</button>
-     <p id="confetti"></p>
-        <script>
-           function myFunction() {
-	      var canvas = document.getElementById('confetti');
-              canvas.confetti = canvas.confetti || confetti.create(canvas, { resize: true });
-	      canvas.confetti({ 
-          particleCount: 100,
-          spread: 70,
-          origin: { y: 0.6 }
-			      });
-	   }
-	</script>
+  <p>hello world<br />
+  <button class="glow-on-hover" type="button">RAINBOW TIME</button></p>
   </body>
 </html>
